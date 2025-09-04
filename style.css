@@ -1,0 +1,102 @@
+/* Use a modern, easy-to-read font for the whole page */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the CTA banner section */
+.cta-banner {
+  /* Tall banner with nature-inspired blue & teal background and image */
+  background: 
+    url('img/cta-bg.jpg') center center no-repeat;
+  background-size: cover;
+  background-color: #1e90a3; /* teal-blue fallback */
+  background-blend-mode: lighten; /* blend image with color for overlay */
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+  /* Add a semi-transparent overlay using background color */
+  /* The blend mode keeps the image subtle and text readable */
+}
+
+/* Large main heading */
+.cta-banner h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Short description */
+.cta-banner p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Eye-catching CTA button */
+.cta-button {
+  display: inline-block;
+  background-color: #2bb3c0; /* bright teal */
+  color: #ffffff;
+  padding: 16px 36px;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Button hover effect for better visibility */
+.cta-button:hover {
+  background-color: #1976a3; /* deeper blue */
+}
+
+/* Simple header for site name */
+.site-header {
+  background-color: #1976a3; /* deep blue */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Site name styling */
+.site-header h2 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Info section below the banner */
+.info-section {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  /* Use inline-block for simple two-column layout */
+}
+
+/* Image column */
+.info-image {
+  width: 45%;
+  max-width: 300px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 5%;
+  border-radius: 8px;
+}
+
+/* Text column */
+.info-text {
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+/* Heading in info section */
+.info-text h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
